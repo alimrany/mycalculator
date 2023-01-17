@@ -75,7 +75,7 @@ text-align: center;
         margin-left: 60px;
 }
 .myinput{ 
-    width: 170px;
+    width: 150px;
 }
 .btn{
     height: 45px;
@@ -83,3 +83,18 @@ text-align: center;
     margin-top: 20px;
     font-size: 28px;
 }
+}
+/* @media screen and (max-width: 420px) {
+    .mycontainer{
+        width: 230px;  
+        margin-left: 60px;
+}
+.myinput{ 
+    width: 150px;
+}
+.btn{
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
+    font-size: 28px;
+}} */
