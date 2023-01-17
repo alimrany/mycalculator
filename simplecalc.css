@@ -1,0 +1,56 @@
+.mycontainer{
+    width: 350px;
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 4),
+                -5px -5px 10px rgb(2, 37, 113)
+}
+.resultscreen{
+    background-color: rgb(78, 72, 72);
+    height: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.inputscreen{
+    background-color: #f1f8f8;
+    border: none;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 4),
+                -5px -5px 10px rgb(2, 37, 113)
+}
+.myinput{
+    margin: 10px;
+    width: 250px;
+    height: 38px;
+    margin-left: 40px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+}
+.btn{
+    height: 55px;
+    width: 60px;
+    margin-top: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.mybtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}

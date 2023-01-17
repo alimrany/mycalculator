@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./simplecalc.css">
+</head>
+<body>
+    <main>
+    <div class="mycontainer">
+    <p id="result" class="resultscreen"></p>
+    <div class="inputscreen">
+        <table>
+    <tr>
+    <td><input type="number" class="myinput" id="myinput1"></td>
+</tr>
+<tr>
+    <td><input type="number" class="myinput" id="myinput2"></td>
+</tr>
+</table>
+</div>
+<div class="mybtn">
+    <button class ="btn" onclick="ad()">+</button>
+    <button class ="btn" onclick="add()">-</button>
+    <button class ="btn" onclick="addd()">/</button>
+    <button class ="btn" onclick="adddd()">*</button>
+</div>
+</div>
+</main>
+</body>
+</html>
+<script>
+let myinput1 = document.getElementById("myinput1");
+let myinput2 = document.getElementById("myinput2");
+function ad(){
+   document.getElementById('result').innerHTML = Number(myinput1.value) + Number(myinput2.value);
+}
+function add(){
+    document.getElementById('result').innerHTML = Number(myinput1.value) - Number(myinput2.value);
+}
+function addd(){
+    document.getElementById('result').innerHTML = Number(myinput1.value) / Number(myinput2.value);
+}
+function adddd(){
+    document.getElementById('result').innerHTML = Number(myinput1.value) * Number(myinput2.value);
+}
+</script>
