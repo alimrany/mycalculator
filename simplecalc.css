@@ -7,6 +7,9 @@
     box-shadow: 5px 5px 10px rgb(0, 0, 4),
                 -5px -5px 10px rgb(2, 37, 113)
 }
+h1{
+    margin-left: 130px;
+}
 .resultscreen{
     background-color: rgb(78, 72, 72);
     height: 50px;
