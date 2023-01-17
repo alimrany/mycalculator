@@ -5,10 +5,11 @@
     margin-left: 100px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(0, 0, 4),
-                -5px -5px 10px rgb(2, 37, 113)
+                -5px -5px 10px rgb(2, 37, 113);
+                
 }
 h1{
-    margin-left: 130px;
+text-align: center;
 }
 .resultscreen{
     background-color: rgb(78, 72, 72);
@@ -54,6 +55,28 @@ h1{
 .mybtn{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
+}
+@media screen and (max-width: 499px) {
+    .mycontainer{
+        width: 300px;  
+        margin-left: 80px;
+}
+.myinput{ 
+    width: 200px;
+}
+}
+@media screen and (max-width: 420px) {
+    .mycontainer{
+        width: 230px;  
+        margin-left: 60px;
+}
+.myinput{ 
+    width: 170px;
+}
+.btn{
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
+    font-size: 28px;
 }
